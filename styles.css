@@ -1,0 +1,289 @@
+body {
+    font-family: Tahoma, Verdana, Arial, Sans-serif;
+}
+
+#main_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+#banner {
+    position: relative;
+    width: 900px;
+    height: 110px;
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#body_container {
+    position: relative;
+    width: 900px;
+    float: left;
+}
+
+#side_menu {
+    position: relative;
+    width: 150px;
+    float: left;
+}
+
+#bank {
+    position: relative;
+    width: 150px;
+    float: left;
+}
+
+#bank_header {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background-image: url("images/bank_header.png");
+    background-repeat: no-repeat;
+}
+
+#bank_repeat {
+    position: relative;
+    width: 150px;
+    background-image: url("images/bank_repeat.png");
+    background-repeat: repeat-y;
+}
+
+#bank_money {
+    position:relative;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#bank_footer {
+    position: relative;
+    width: 150px;
+    height: 25px;
+    background-image: url("images/bank_footer.png");
+    background-repeat: no-repeat;
+}
+
+#navigation {
+    position: relative;
+    width: 150px;
+    margin-top: 10px;
+    float: left;
+}
+
+#restart_button {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    background-image: url("images/restart_button.png");
+    background-repeat: no-repeat;
+    display: block;
+    cursor: pointer;
+}
+
+#content {
+    position: relative;
+    width: 700px;
+    margin-left: 50px;
+    float: left;
+}
+
+#content_header {
+    position: relative;
+    width: 700px;
+    height: 50px;
+    background-image: url("images/content_header.png");
+    background-repeat: no-repeat;
+}
+
+#content_repeat {
+    position: relative;
+    width: 700px;
+    background-image: url("images/content_repeat.png");
+    background-repeat: repeat-y;
+}
+
+#content_footer {
+    position: relative;
+    width: 700px;
+    height: 50px;
+    background-image: url("images/content_footer.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#validator_links {
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#game {
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#cases {
+    position: relative;
+    width: 600px;
+}
+
+#game_message {
+    position: relative;
+    width: 600px;
+    height: 50px;
+}
+
+#game_round {
+    position: relative;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    float: left;
+}
+
+#game_text {
+    position: relative;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    width: 450px;
+    float: left;
+}
+
+#bank_offer {
+    position: relative;
+    width: 600px;
+}
+
+#bank_offer_title {
+    position: relative;
+    width: 600px;
+    height: 50px;
+    background-image: url("images/bank_offer.png");
+    background-repeat: no-repeat;
+}
+
+#bank_offer_text {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    margin-top: 40px;
+    float: left;
+}
+
+#bank_offer_amount {
+    position: relative;
+    width: 300px;
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+}
+
+#bank_offer_message {
+    position: relative;
+    width: 300px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+}
+
+#deal_button {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-image: url("images/deal_button.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+}
+
+#nodeal_button {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-image: url("images/nodeal_button.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+}
+#deal_message {
+    position: relative;
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.briefcase_closed {
+    position: relative;
+    height: 120px;
+    width: 150px;
+    background-image: url("images/briefcase_closed.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+}
+.briefcase_chosen {
+    position: relative;
+    height: 120px;
+    width: 150px;
+    background-image: url("images/briefcase_chosen.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+}
+.briefcase_open {
+    position: relative;
+    height: 120px;
+    width: 150px;
+    background-image: url("images/briefcase_open.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+.briefcase_number {
+    position: relative;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.briefcase_amount {
+    position: relative;
+    font-family: Arial;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.money_left {
+    position: relative;
+    width: 130px;
+    height: 30px;
+    background-image: url("images/money_left.png");
+    background-repeat: no-repeat;
+}
+
+.money_amount {
+    position: relative;
+    width: 100px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: right;
+    margin-right: 30px;
+    padding-top: 5px;
+}
